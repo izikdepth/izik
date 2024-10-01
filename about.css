@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ************************* */
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.intro {
+  margin-right: 50px;
+}
+
+/* ******************************** */
+
+#about {
+  width: 100%;
+  max-width: 900px;
+  margin: 80px auto 40px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative; /* Allows positioning of the icons at the bottom */
+}
+
+.about-content {
+  text-align: center;
+  padding-bottom: 60px; /* Padding for spacing above the icons */
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4db6ac;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+ul.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Align logos in the center horizontally */
+  align-items: center;
+  gap: 15px; /* Spacing between logos */
+  position: absolute; /* Positioning the logos at the bottom */
+  bottom: 20px; /* Adjust based on how far from the bottom you want */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+ul.social-icons li {
+  display: inline-block;
+}
+
+ul.social-icons li a img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  border-radius: 50%; /* Make logos round */
+  transition: transform 0.3s;
+}
+
+ul.social-icons li a img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
