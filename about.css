@@ -132,3 +132,63 @@ ul.social-icons li a img {
 ul.social-icons li a img:hover {
   transform: scale(1.1); /* Slight zoom on hover */
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust layout for smaller screens like tablets */
+
+  #about {
+    max-width: 100%;
+    margin: 60px auto 20px;
+    padding: 15px;
+  }
+
+  .about-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  ul.social-icons {
+    gap: 10px;
+    bottom: 15px;
+  }
+
+  ul.social-icons li a img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust layout for smaller screens like mobile phones */
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .about-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  ul.social-icons {
+    bottom: 10px;
+    gap: 5px;
+  }
+
+  ul.social-icons li a img {
+    width: 30px;
+    height: 30px;
+  }
+}
