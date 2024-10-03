@@ -83,10 +83,10 @@ hr {
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   header ul {
-    flex-direction: column;
+    list-style: none;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
 
   #home {
