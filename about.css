@@ -135,8 +135,6 @@ ul.social-icons li a img:hover {
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
-  /* Adjust layout for smaller screens like tablets */
-
   #about {
     max-width: 100%;
     margin: 60px auto 20px;
@@ -163,8 +161,6 @@ ul.social-icons li a img:hover {
 }
 
 @media (max-width: 480px) {
-  /* Adjust layout for smaller screens like mobile phones */
-
   #home {
     flex-direction: column;
     text-align: center;
