@@ -141,6 +141,13 @@ ul.social-icons li a img:hover {
     padding: 15px;
   }
 
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
   .about-content h1 {
     font-size: 2rem;
   }
